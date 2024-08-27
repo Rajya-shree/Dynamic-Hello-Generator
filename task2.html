@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Heloo</title>
+    </head>
+    <body>
+        <button id ="add" onclick="hello()">ADD</button>
+        <div id="result"></div>
+        <script>
+            var add = document.getElementById("add");
+            var result = document.getElementById("result")
+            function hello(){
+                //document.getElementById("result").innerHTML = "Hello";
+                var list = document.createElement("h1");
+                list.textContent = "Hello"
+                result.append(list)
+            }
+        </script>
+    </body>
+</html>
